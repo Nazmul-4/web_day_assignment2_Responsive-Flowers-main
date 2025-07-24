@@ -244,7 +244,28 @@ span{
 
 /* flowers responsive */
 
+@media screen and (max-width: 576px) {
 
+  .flowers h1, .flowers p {
+    text-align: center;
+    margin: 0 -65%;
+    width: 240%;
+    margin-bottom: 40px;
+  }
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    width: 250%;
+    margin: 0 -70%;
+  }
+  
+}
+
+.cards-item img
+{
+  width: 95%;
+  height: 80%;
+  
+}
 
 
 
